@@ -1,0 +1,70 @@
+.calculator_div {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	width: 400px;
+	height: 300px;
+	border: solid 2px black;
+	display: block;
+	padding: 50px;
+	background-color: silver;
+	border-radius: 10px;
+}
+
+.dialpad {
+	margin-top: 30px;
+}
+
+.display_div {
+	border: 3px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: white;
+}
+
+h2 {
+	text-align: center;
+}
+
+button {
+	margin: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 30px;
+}
+
+button:hover {
+	background-color: salmon;
+	cursor: pointer;
+}
+
+button:active {
+	background-color: red;
+	cursor: pointer;
+}
+
+#enter {
+	background-color: #a8a8ff;
+}
+
+#enter:hover {
+	background-color: #6b6bff;
+}
+
+#enter:active {
+	background-color: #3d3dff;
+}
+
+#add, #sub, #mult, #div {
+	background-color: #94ff94;
+}
+
+#add:hover, #sub:hover, #mult:hover, #div:hover {
+	background-color: #3cd33c;
+}
+
+#add:active, #sub:active, #mult:active, #div:active {
+	background-color: green;
+}
