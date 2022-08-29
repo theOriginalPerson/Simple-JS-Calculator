@@ -47,7 +47,7 @@ const buttons = [n1_btn, n2_btn, n3_btn, n4_btn, n5_btn, n6_btn, n7_btn, n8_btn,
 
 var display = document.getElementById("calc_display");
 
-// using function expressions (expressions stored in functions)
+// our operations that allow us to convert the text format (string) into a number
 
 function operation(display_val) {
 	if (display_val.includes("+")) {
